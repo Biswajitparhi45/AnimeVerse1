@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0%;
+    
+}
+#img-1{
+height: 70px;
+width: 100px;
+}
+
+
+main.main-content{
+    margin-top: 60px;
+}
+#home-carousel > .carousel {
+    max-height: 400px;
+}
+.carousel > .carousel-inner > .carousel-item img {
+    aspect-ratio: 16/7;
+    
+    height: 100%;
+}
+
+.anime-card{
+    height: 300px;
+    object-fit: cover;
+}
+
+.anime-card .card-body{
+    
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+    color: white;
+    opacity: 0;
+    transition-duration: 1s;
+}
+.anime-card .card-body:hover{
+    opacity: 1;
+}
